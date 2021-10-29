@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 propriedade z-index em um elemento</title>
+    <style>
+       #quadrado1 {
+  background: #FF0000;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 7%;
+  box-shadow: inset 12px 3px 4px ;
+}
+
+#quadrado2 {
+  background: #00FF00;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 3;
+  margin: 7%;
+  box-shadow: inset 12px 3px 4px ;
+}
+
+#quadrado3 {
+  background: #0000FF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  margin: 7%;
+  box-shadow: inset 12px 3px 4px ;
+} 
+    </style>
+</head>
+<body>
+    <div id = "quadrado1"></div>
+    <div id = "quadrado2"></div>
+    <div id = "quadrado3"></div> 
+</body>
+</html>
